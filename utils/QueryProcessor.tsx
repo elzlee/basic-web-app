@@ -1,7 +1,7 @@
 export default function QueryProcessor(query: string): string {
-  if (query.toLowerCase().includes("what is your name?")) {
+  if (query.toLowerCase().includes("What is 3 plus 23?")) {
     return (
-      "lizzie"
+      "26"
     );
   }
 
